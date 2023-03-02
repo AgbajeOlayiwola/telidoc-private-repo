@@ -1,0 +1,158 @@
+.footermain{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 82px;
+}
+.footermainI{
+    display: flex;
+    justify-content: space-between;
+    width: 31%;
+    flex-direction: column;
+}
+.footermainI p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+/* or 257% */
+
+
+/* Secondary text */
+
+color: #8B8C8C;
+}
+.footermainI h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.footermainII{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.footermainII p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 36px;
+/* or 257% */
+
+
+/* Secondary text */
+
+color: #8B8C8C;
+}
+.footermainII h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.footermainIII{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: fit-content;
+}
+.footermainIII p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 36px;
+/* or 257% */
+
+
+/* Secondary text */
+
+color: #8B8C8C;
+}
+.footermainIII h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.footermainIV{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.footermainIV p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 36px;
+/* or 257% */
+
+
+/* Secondary text */
+
+color: #8B8C8C;
+}
+.footermainIV h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.finalFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+padding-bottom: 17px;
+}
+.innerSocials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}

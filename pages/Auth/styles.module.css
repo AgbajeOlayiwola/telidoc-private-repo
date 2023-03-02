@@ -1,0 +1,102 @@
+.regBg{
+    background: white;
+    padding-top: 90px;
+    padding-bottom: 66px;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height, or 112% */
+    
+    
+    /* Sanar Text 1 */
+    
+    color: #1E3354;
+}
+.signUp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    max-width: 614px;
+    min-width: 601px;
+    gap: 148px;
+}
+.signUp div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+.signUp div h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.talk{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+width: 54%;
+text-align: center;
+
+/* Secondary text */
+
+color: #8B8C8C;
+}
+.signUpCen{
+    display: flex;
+    justify-content: center;
+}
+.physiciams{
+    display: flex;
+    justify-content: center;
+}
+.phys{
+    background: white;
+}
+.signBtn{
+    background: #127BDA;
+    /* Brand color 1 */
+    padding: 12px 18px;
+    border: 0.5px solid #127BDA;
+    border-radius: 5px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 11px 34px;
+gap: 10px;
+}
+.signBtn p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF !important;
+}

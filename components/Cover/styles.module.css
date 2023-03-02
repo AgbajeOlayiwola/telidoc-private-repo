@@ -1,0 +1,8 @@
+.outerFlex{
+    display: flex;
+    justify-content: center;
+}
+.innerModule{
+    width: 89%;
+    max-width: 1522px;
+}

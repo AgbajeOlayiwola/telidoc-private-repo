@@ -1,0 +1,531 @@
+.heroSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heroSection div{
+    width: 50%;
+
+}
+.heroSectionI h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    width: 72%;
+    line-height: 64px;
+    color: #1E3354;
+}
+.heroSectionI p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    width: 73%;
+    /* or 157% */
+    /* Secondary text */
+   
+    
+}
+.regBtn{
+    margin-top: 25px;
+}
+.heroSectionIP{
+    margin-top: 12px;
+    color: #8B8C8C;
+}
+.specialisationSect h1{
+   font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height, or 112% */
+    
+    margin-bottom: 12px;
+    margin-top: 12px;
+    /* Sanar Text 1 */
+    
+    color: #1E3354;
+
+}
+.specialisationBg{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.eclipses{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.eclipses svg:nth-child(2){
+    margin-top: 5%;
+}
+.eclipses svg:nth-child(3){
+    margin-right: 28%;
+}
+.specials{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 60px;
+}
+.specialisationSect p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    margin-bottom: 34px;
+    /* Secondary text */
+    
+    color: #8B8C8C;
+}
+.mainSpecialisations{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainSpecialisations div{
+    width: 18%;
+}
+.mainSpecialisations h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+margin-top: 24px;
+margin-bottom: 12px;
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.mainSpecialisations p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    
+    
+    /* Secondary text */
+    
+    color: #8B8C8C;
+
+}
+.joinBg{
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-image: linear-gradient(94.93deg,rgba(30, 51, 84, 0) 1.19%,  #1e3354db 83.12%), url('/Assets/Images/Joinwomman.png');
+    padding: 88px 51px 86px 51px;
+    height: 500px; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.joinSect{
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    text-align: end;
+    justify-content: flex-end;
+}
+.joinBtnCov{
+    display: flex;
+    justify-content: flex-end;
+}
+.joinbtn{
+    background: #285FE7;
+/* Primary Color */
+
+width: 100%;
+
+border: 0.5px solid #285FE7;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 11px 34px;
+gap: 10px;
+align-self: end;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.joinSectInn{
+    width: 52%; 
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.joinSectInn h1{
+    margin-bottom: 12px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 36px;
+color: #FFFFFF;
+}
+.joinsSectP{
+    margin-bottom: 24px;
+    width: 90%;
+    align-self: flex-end;
+    font-size: 14px;
+
+}
+.consult{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.consult div{
+    width: 50%;
+}
+.consult h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: #1E3354;
+margin-bottom: 12px;
+width: 60%;
+}
+.consultCover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.consultCover div{
+    width: 50%;
+}
+.consultbg{
+    background-color: white;
+}
+.consultP{
+    font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+color: #8B8C8C;
+width: 60%;
+margin-bottom: 24px;
+}
+.consultCheck{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.checklist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100% !important;
+}
+.checklist p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    
+    /* Sanar Text 1 */
+    
+    color: #1E3354;
+}
+.registerDiv{
+    margin-top: 35px;
+}
+.servicesCover{
+    background: white;
+    padding-bottom: 110px;
+}
+.servicesSvg{
+    margin-bottom: 32px;
+}
+.healthServices{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.healthServices h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+}
+.healthServices p{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Secondary text */
+
+color: #8B8C8C;
+}
+.servicfesMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.servicfesMain div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+.servicfesMain h2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+}
+.servicfesMain p{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+text-align: center;
+
+/* Secondary text */
+
+color: #8B8C8C;
+}
+.easyConsult{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+margin-bottom: 70px;
+/* identical to box height */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+}
+.steps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.steps div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+    width: 15%;
+}
+.steps div h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 48px;
+/* identical to box height, or 200% */
+
+
+/* Brand color 1 */
+
+color: #127BDA;
+
+}
+.steps div h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    
+    /* Sanar Text 1 */
+    
+    color: #1E3354;
+}
+.steps div p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+    
+    
+    /* Secondary text */
+    
+    color: #8B8C8C;
+    
+}
+.doctorsBg{
+    background: white;
+    padding-bottom: 100px;;
+}
+.doctors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.doctors h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    margin-top: 21px;
+    margin-bottom: 10px;
+    color: #122750;
+    
+}
+.doctors p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 0.1em;
+
+/* Secondary text */
+
+color: #8B8C8C;
+}
+.quailified{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.quailified p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* Brand color 2 */
+
+color: #5BA121;
+}
+.quailified h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.quailified span{
+display: flex;
+justify-content: space-between;
+color: #5BA121;
+}
+.testimonialsBg{
+    background: white;
+    padding-bottom: 100px;
+}
+.testiomonialInnerBg{
+    background: url('/Assets/Images/quotes.svg');
+    background-repeat: no-repeat;
+    background-position: 265px 2px;
+}
+.testiOuter{
+    display: flex;
+    justify-content: center;
+}
+.testInner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 46%;
+    gap: 33px;
+}
+.testInner p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+/* Secondary text */
+
+color: #8B8C8C;
+
+}
+.testInner h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #122750;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainProfile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.arrowRight{
+    color: #5BA121 !important;
+}

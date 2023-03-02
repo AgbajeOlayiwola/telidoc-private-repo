@@ -1,0 +1,15 @@
+.registerDiv{
+    padding: 
+    11px 34px 11px 34px;
+    border-radius: 5px;
+    background-color: #285FE7;
+    text-align: center;
+    }
+    .registerDiv p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: white;
+    }

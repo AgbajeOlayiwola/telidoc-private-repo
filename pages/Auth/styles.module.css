@@ -101,6 +101,43 @@ gap: 10px;
     color: #FFFFFF !important;
 }
 @media screen and (max-width: 990px) {
+    .signBtn p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        
+        color: #FFFFFF;
+        
+    }
+    .signUp h2{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+    }
+    .register h1{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 36px;
+/* identical to box height, or 180% */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+    }
     .signUp {
         display: flex;
         justify-content: space-between;

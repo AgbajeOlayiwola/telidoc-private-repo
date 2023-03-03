@@ -59,8 +59,8 @@ const Homepage = () => {
             <div>
               <Image
                 src="/Assets/Images/heroHeader.png"
-                width={width > 990 ? 609 : 420}
-                height={width > 990 ? 609 : 420}
+                width={width > 990 ? 609 : 270}
+                height={width > 990 ? 609 : 270}
                 alt="tellidoc image"
               />
             </div>
@@ -222,8 +222,8 @@ const Homepage = () => {
               <div>
                 <Image
                   src="/Assets/Images/DoctorOla.png"
-                  width={478}
-                  height={616}
+                  width={width > 990 ? 478 : 278}
+                  height={width > 990 ? 616 : 316}
                   alt="doctorola"
                 />
               </div>

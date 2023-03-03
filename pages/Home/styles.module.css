@@ -562,10 +562,78 @@ color: #122750;
     width: 100%;
 }
 .joinSectInn {
-    width: 77%;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+}
+.joinSectInn h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+/* or 135% */
+
+text-align: right;
+
+color: #FFFFFF;
+}
+.joinSectInn p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 27px;
+/* or 225% */
+width: 100%;
+text-align: right;
+
+/* White */
+
+color: #FFFFFF;
+
+}
+.checklist p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+/* or 109% */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.healthServices h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+margin-bottom: 8px;
+text-align: center;
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+}
+.quailified h1{
+    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    /* Sanar Text 1 */
+    
+    color: #1E3354;
 }
 .consultCover{
     display: flex;
@@ -602,7 +670,7 @@ color: #122750;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 51%;
+    width: 80%;
     margin-bottom: 48px;
 }
 .doctors{
@@ -643,24 +711,121 @@ color: #122750;
     flex-wrap: wrap;
 }
 .registerDiv{
-    width: 30% !important;
+    width: 40% !important;
+}
+.consult h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1E3354;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.consultP {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #8B8C8C;
+    width: 100%;
+    margin-bottom: 24px;
 }
 .heroSectionI h1 {
     font-family: 'Inter';
-    margin-top: 24px;
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 24px;
+    line-height: 37px;
+    /* or 154% */
+    margin-top: 24px;
     width: 100%;
-    line-height: 64px;
+    /* Sanar Text 1 */
+    
     color: #1E3354;
+    
 }
 .heroSectionI p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 12px;
+    line-height: 27px;
+    /* or 225% */
+    
     width: 100%;
+    /* Secondary text */
+    
+    color: #8B8C8C;
+    
+}
+.specialisationSect h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.specialisationSect p{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 27px;
+/* or 225% */
+
+
+/* Secondary text */
+
+color: #8B8C8C;
+
+}
+.mainSpecialisations p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 27px;
+/* or 225% */
+
+margin-bottom: 10px;
+/* Secondary text */
+
+color: #8B8C8C;
+
+}
+.consult h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 31px;
+/* or 156% */
+
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+.mainSpecialisations h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+
 }
 }

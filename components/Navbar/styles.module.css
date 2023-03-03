@@ -34,3 +34,27 @@
 .white{
     background: white;
 }
+@media screen and (max-width: 990px) {
+
+.navLinks{
+    display: flex !important;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    color: #1E3354;
+    ;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    flex-direction: column;
+}
+.mainNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 18px;
+}
+}

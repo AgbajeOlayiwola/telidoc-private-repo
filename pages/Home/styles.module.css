@@ -469,6 +469,7 @@ color: #1E3354;
 display: flex;
 justify-content: space-between;
 color: #5BA121;
+align-items: center;
 }
 .testimonialsBg{
     background: white;
@@ -518,6 +519,7 @@ color: #122750;
 .profile{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .mainProfile{
@@ -528,4 +530,137 @@ color: #122750;
 }
 .arrowRight{
     color: #5BA121 !important;
+}
+
+@media screen and (max-width: 990px) {
+    .quailified h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1E3354;
+    width: 70%;
+    }
+.heroSection{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.heroSection div{
+    width: 100%;
+
+}
+.mainSpecialisations{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.mainSpecialisations div{
+    width: 100%;
+}
+.joinSectInn {
+    width: 77%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.consultCover{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.consultCover div{
+    width: 100%;
+}
+.checklist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75% !important;
+}
+.healthServices h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1E3354;
+    margin-top: 108px;
+}
+.servicfesMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.servicfesMain div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 51%;
+    margin-bottom: 48px;
+}
+.doctors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: scroll;
+    gap: 20px;
+}
+.regBtn{
+    margin-top: 25px;
+    display: none;
+}
+.testInner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 84%;
+    gap: 33px;
+
+}
+.testiomonialInnerBg{
+    background: url('/Assets/Images/mobileVersion.svg');
+    background-repeat: no-repeat;
+    background-position: 1px 2px;
+}
+.steps div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+    width: 50%;
+}
+.steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.registerDiv{
+    width: 30% !important;
+}
+.heroSectionI h1 {
+    font-family: 'Inter';
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    width: 100%;
+    line-height: 64px;
+    color: #1E3354;
+}
+.heroSectionI p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+}
 }

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import RegisterBtn from "../../components/buttons/Register";
 import Cover from "../../components/Cover";
 import Layout from "../../components/layout";
@@ -19,6 +19,23 @@ import DermatologySvg from "../../components/SVGs/dermatologySvg";
 import VirusSvg from "../../components/SVGs/virusSvg";
 
 const Homepage = () => {
+  const [width, setWidth] = useState(991);
+
+  const [height, setHeight] = useState(0);
+  const handleWindowResize = () => {
+    setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
+    console.log(width);
+  };
+  useEffect(() => {
+    setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
+    // component is mounted and window is available
+    handleWindowResize();
+    window.addEventListener("resize", handleWindowResize);
+    // unsubscribe from the event on component unmount
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, [width]);
   return (
     <div>
       <Layout back="">
@@ -42,8 +59,8 @@ const Homepage = () => {
             <div>
               <Image
                 src="/Assets/Images/heroHeader.png"
-                width={609}
-                height={609}
+                width={width > 990 ? 609 : 420}
+                height={width > 990 ? 609 : 420}
                 alt="tellidoc image"
               />
             </div>

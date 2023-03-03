@@ -336,3 +336,30 @@ overflow: scroll;
 height: 647px;
 padding-top: 40px;
 }
+@media screen and (max-width: 990px) {
+.Gris{
+    display: flex;
+    justify-content: space-between;
+    gap: 87px;
+    overflow: scroll;
+    flex-wrap: wrap;
+}
+.gridIndex{
+    margin-bottom: 41px;
+    cursor: pointer;
+    width: 53% !important;
+    width: fit-content;
+}
+.qualified h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+/* Sanar Text 1 */
+
+color: #1E3354;
+
+}
+}

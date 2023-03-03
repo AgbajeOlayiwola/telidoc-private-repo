@@ -1,11 +1,28 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Cover from "../../components/Cover";
 import Layout from "../../components/layout";
 import Avatr from "../../components/SVGs/avatr";
 import Stethoscope from "../../components/SVGs/stethoscope";
 import styles from "./styles.module.css";
 const Login = () => {
+  const [width, setWidth] = useState(0);
+
+  const [height, setHeight] = useState(0);
+  const handleWindowResize = () => {
+    setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
+    console.log(width);
+  };
+  useEffect(() => {
+    setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
+    // component is mounted and window is available
+    handleWindowResize();
+    window.addEventListener("resize", handleWindowResize);
+    // unsubscribe from the event on component unmount
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, [width]);
   return (
     <Layout back="true">
       <div className={styles.regBg}>
@@ -50,8 +67,10 @@ const Login = () => {
           <div className={styles.physiciams}>
             <Image
               src="/Assets/Images/Physicians.png"
-              width={613}
-              height={408}
+              //300
+              width={width > 990 ? 613 : 300}
+              //200
+              height={width > 990 ? 408 : 200}
               alt="phsicians"
             />
           </div>

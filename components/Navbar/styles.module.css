@@ -4,6 +4,10 @@
     align-items: center;
     padding-top: 35px;
 }
+#whiteFixed{
+    position: fixed;
+    margin-left: 74px;
+}
 .navLinks{
     display: flex;
     justify-content: space-between;

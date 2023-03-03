@@ -1,0 +1,396 @@
+.registerSections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.registerInputSection{
+    padding: 122px 80px 91px 80px;
+    /* margin-top: 94px; */
+    width: 60%;
+    height: 100vh;
+    background: white;
+}
+.registerInfoSection{
+    width: 40%;
+    background: #E7F1FB;
+    padding: 152px 38px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.regi{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 14px;
+}
+.regi h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+/* Monochromatic */
+
+color: #122750;
+}
+.regi p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    /* Secondary text */
+    
+    color: #8B8C8C;
+}
+.signInWith{
+    background: #E8EDF1;
+
+border-radius: 5px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 11px 34px;
+gap: 10px;
+
+}
+.signInWith p{
+    font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+/* Monochromatic */
+
+color: #122750;
+
+}
+.signInWithFlex{
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+.hrSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hrSection hr{
+    width:30%;
+}
+.hrSection p{
+    font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+
+/* Grey 2 */
+
+color: #818181;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.mainInputs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+gap: 20px;
+/* identical to box height */
+
+
+/* Monochromatic */
+
+color: #122750;
+}
+.mainInputs input{
+  
+    width: 100%;
+
+    padding: 11px 12px;
+    background: #FFFFFF;
+/* Input fields */
+
+border: 0.3px solid #697D95;
+border-radius: 5px;
+}
+.mainInputs div{
+    width: 47%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 40px;
+}
+.loginpasswordInput{
+    margin-top: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 40px;  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    /* Monochromatic */
+    color: #122750;
+}
+.loginpasswordInput input{
+    width: 100%;
+    padding: 11px 12px;
+    background: #FFFFFF;
+/* Input fields */
+border: 0.3px solid #697D95;
+border-radius: 5px; 
+}
+.loginpasswordInputII{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 40px;  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    /* Monochromatic */
+    color: #122750;  
+}
+.loginpasswordInputII input{
+    width: 100%;
+    padding: 11px 12px;
+    background: #FFFFFF;
+/* Input fields */
+border: 0.3px solid #697D95;
+border-radius: 5px; 
+}
+.passwordInput{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 40px;  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    /* Monochromatic */
+    color: #122750;
+}
+.passwordInput input{
+    width: 100%;
+    padding: 11px 12px;
+    background: #FFFFFF;
+/* Input fields */
+border: 0.3px solid #697D95;
+border-radius: 5px;
+}
+.check input{
+    background: white;
+}
+.check{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+margin-bottom: 25px;
+width: 60%;
+/* Secondary text */
+gap: 10px;
+color: #8B8C8C;
+}
+.crerateAcccount{
+    background: #285FE7;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 11px 34px;
+gap: 10px;
+width: 100%;
+border: none;
+color: white;
+}
+.check span{
+    color: #E7B028;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.haveanAccoujnt{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 16px;
+/* Secondary text */
+
+color: #8B8C8C;
+
+}
+.haveanAccoujnt span{
+    color: #E7B028; 
+    cursor: pointer; 
+}
+.progress{
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+}
+.progressInn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.progressActive{
+    width: 60px;
+height: 5px;
+
+
+/* Monochromatic */
+
+background: #122750;
+}
+.progressInActive{
+    width: 60px;
+height: 5px;
+
+
+background: #CFE4F7;
+}
+.yourHealth{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.yourHealth h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+/* Monochromatic */
+
+color: #122750;
+
+}
+.yourHealth p{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+/* Secondary text */
+
+color: #8B8C8C;
+}
+.remForgot{
+    display: flex;
+    justify-content: space-between;
+
+}
+.remForgot p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    
+    /* Sanar Text 1 */
+    
+    color: #1E3354;
+    
+}
+@media screen and (max-width: 990px) {
+    .registerInfoSection{
+        display: none !important;
+        width: 40%;
+        background: #E7F1FB;
+        padding: 152px 38px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .registerInputSection{
+        padding: 117px 18px;
+        /* margin-top: 94px; */
+        width: 100%;
+        height:fit-content;
+        background: white;
+    }
+    .signInWithFlex {
+        margin-top: 16px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+    .mainInputs div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 7px;
+        margin-bottom: 24px;
+    }
+    .check{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 25px;
+        width: 100%;
+        gap: 10px;
+        color: #8B8C8C;
+    }
+   
+}

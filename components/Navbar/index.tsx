@@ -5,6 +5,7 @@ import Cover from "../Cover";
 import TelidocLogoSvg from "../SVGs/telidocLogoSvg";
 import styles from "./styles.module.css";
 import { slide as Menu } from "react-burger-menu";
+import { useRouter } from "next/router";
 const Navbar = ({ back }: { back: any }) => {
   var styless = {
     bmBurgerButton: {
@@ -58,6 +59,9 @@ const Navbar = ({ back }: { back: any }) => {
     setHeight(window.innerHeight);
     console.log(width);
   };
+  const router = useRouter();
+
+  console.log(router.pathname);
 
   useEffect(() => {
     setWidth(window.innerWidth);
@@ -70,7 +74,10 @@ const Navbar = ({ back }: { back: any }) => {
   }, [width]);
 
   return (
-    <div className={back === "true" ? styles.white : ""}>
+    <div
+      className={back === "true" ? styles.white : ""}
+      id={router.pathname !== "/Register" ? "" : styles.whiteFixed}
+    >
       <Cover>
         <div className={styles.mainNav}>
           <Link href="/">
@@ -79,19 +86,21 @@ const Navbar = ({ back }: { back: any }) => {
             </div>
           </Link>
           {width > 990 ? (
-            <div className={styles.navLinks}>
-              <Link href="#">Pricing</Link>
-              <Link href="#joinArea">Doctors</Link>
-              <Link href="#">Pharmacies</Link>
-              <Link href="#">Help</Link>
-              <Link href="Auth">
-                <div className={styles.loginDiv}>
-                  <p>LOG IN</p>
-                </div>
-              </Link>
-              <RegisterBtn />
-            </div>
-          ) : (
+            router.pathname !== "/Register" ? (
+              <div className={styles.navLinks}>
+                <Link href="#">Pricing</Link>
+                <Link href="#joinArea">Doctors</Link>
+                <Link href="#">Pharmacies</Link>
+                <Link href="#">Help</Link>
+                <Link href="Auth">
+                  <div className={styles.loginDiv}>
+                    <p>LOG IN</p>
+                  </div>
+                </Link>
+                <RegisterBtn />
+              </div>
+            ) : null
+          ) : router.pathname !== "/Register" ? (
             <Menu width={300} styles={styless}>
               <div className={styles.navLinks}>
                 <Link href="#">Pricing</Link>
@@ -106,7 +115,7 @@ const Navbar = ({ back }: { back: any }) => {
                 <RegisterBtn />
               </div>
             </Menu>
-          )}
+          ) : null}
         </div>
       </Cover>
     </div>

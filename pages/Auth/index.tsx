@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import Cover from "../../components/Cover";
 import Layout from "../../components/layout";
@@ -44,9 +45,11 @@ const Login = () => {
                 <p className={styles.talk}>
                   Talk to a licensed doctor at Sanar
                 </p>
-                <div className={styles.signBtn}>
-                  <p>SIGN UP AS A PATIENT</p>
-                </div>
+                <Link href="/Register">
+                  <div className={styles.signBtn}>
+                    <p>SIGN UP AS A PATIENT</p>
+                  </div>
+                </Link>
               </div>
               <div>
                 <div>
@@ -54,9 +57,11 @@ const Login = () => {
                 </div>
                 <h2>Doctor</h2>
                 <p className={styles.talk}>Would you like to join us?</p>
-                <div className={styles.signBtn}>
-                  <p>SIGN UP AS A DOCTOR</p>
-                </div>
+                <Link href="/Register">
+                  <div className={styles.signBtn}>
+                    <p>SIGN UP AS A DOCTOR</p>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -76,6 +81,8 @@ const Login = () => {
           </div>
         </Cover>
       </div>
+      <div className={styles.register}></div>
+      <div className={styles.login}></div>
     </Layout>
   );
 };

@@ -80,7 +80,15 @@
   padding: 0;
   margin: 0;
 }
-
+input{
+  color: #122750;
+}
+input[type="checkbox"] {
+  accent-color:#fff;
+  }
+  input:focus{
+    outline: none;
+}
 html,
 body {
   max-width: 100vw;
@@ -100,6 +108,9 @@ body {
 .pure-modal>*>.scrollable {
   overflow-x: none !important;
   /* overflow-scrolling: touch; */
+}
+label{
+  font-family: 'Inter';
 }
 a {
   color: inherit;

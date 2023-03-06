@@ -1,0 +1,14 @@
+.loginDiv{
+    border: 1px solid #285FE7;
+    padding: 
+    11px 34px 11px 34px;
+    border-radius: 5px;
+}
+.loginDiv p{
+    color: #285FE7;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}

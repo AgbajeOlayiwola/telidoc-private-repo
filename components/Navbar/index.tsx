@@ -6,6 +6,7 @@ import TelidocLogoSvg from "../SVGs/telidocLogoSvg";
 import styles from "./styles.module.css";
 import { slide as Menu } from "react-burger-menu";
 import { useRouter } from "next/router";
+import LoginBtn from "../buttons/LoginBtn";
 const Navbar = ({ back }: { back: any }) => {
   var styless = {
     bmBurgerButton: {
@@ -92,11 +93,7 @@ const Navbar = ({ back }: { back: any }) => {
                 <Link href="#joinArea">Doctors</Link>
                 <Link href="#">Pharmacies</Link>
                 <Link href="#">Help</Link>
-                <Link href="Auth/Login">
-                  <div className={styles.loginDiv}>
-                    <p>LOG IN</p>
-                  </div>
-                </Link>
+                <LoginBtn />
                 <RegisterBtn />
               </div>
             ) : null
@@ -107,11 +104,7 @@ const Navbar = ({ back }: { back: any }) => {
                 <Link href="#joinArea">Doctors</Link>
                 <Link href="#">Pharmacies</Link>
                 <Link href="#">Help</Link>
-                <Link href="Auth/Register">
-                  <div className={styles.loginDiv}>
-                    <p>LOG IN</p>
-                  </div>
-                </Link>
+                <LoginBtn />
                 <RegisterBtn />
               </div>
             </Menu>

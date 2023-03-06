@@ -5,15 +5,17 @@ import Facebook from "../../components/SVGs/facebook";
 import G10 from "../../components/SVGs/g10";
 import Googleicon from "../../components/SVGs/googleicon";
 import styles from "./styles.module.css";
+import { useRouter } from "next/router";
 
 const Register = () => {
   const [rigisterLogin, setRegisterLogin] = useState<boolean>(true);
+  const router = useRouter().query.index;
   return (
     <Layout back="">
       <div className={styles.register}>
         <div className={styles.registerSections}>
           <section className={styles.registerInputSection}>
-            {rigisterLogin ? (
+            {router !== "Login" ? (
               <div>
                 <div className={styles.regi}>
                   <h1>Register</h1>

@@ -92,7 +92,7 @@ const Navbar = ({ back }: { back: any }) => {
                 <Link href="#joinArea">Doctors</Link>
                 <Link href="#">Pharmacies</Link>
                 <Link href="#">Help</Link>
-                <Link href="Auth">
+                <Link href="Auth/Login">
                   <div className={styles.loginDiv}>
                     <p>LOG IN</p>
                   </div>
@@ -107,7 +107,7 @@ const Navbar = ({ back }: { back: any }) => {
                 <Link href="#joinArea">Doctors</Link>
                 <Link href="#">Pharmacies</Link>
                 <Link href="#">Help</Link>
-                <Link href="Auth">
+                <Link href="Auth/Register">
                   <div className={styles.loginDiv}>
                     <p>LOG IN</p>
                   </div>

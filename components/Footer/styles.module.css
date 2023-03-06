@@ -154,7 +154,8 @@ padding-bottom: 17px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 30%;
+    width: fit-content;
+    gap: 18px;
 }
 @media screen and (max-width: 990px) {
     .footermain{

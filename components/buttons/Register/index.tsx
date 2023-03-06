@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 const RegisterBtn = () => {
   return (
-    <Link href="/Auth">
+    <Link href="/Auth/Register">
       <div className={styles.registerDiv}>
         <p>REGISTER</p>
       </div>

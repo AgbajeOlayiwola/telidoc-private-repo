@@ -393,5 +393,8 @@ color: #8B8C8C;
         gap: 10px;
         color: #8B8C8C;
     }
+    .forgotPassword{
+    width: 31%;
+    }
    
 }

@@ -6,6 +6,7 @@ import G10 from "../../components/SVGs/g10";
 import Googleicon from "../../components/SVGs/googleicon";
 import styles from "./styles.module.css";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const Register = () => {
   const [rigisterLogin, setRegisterLogin] = useState<boolean>(true);
@@ -81,10 +82,12 @@ const Register = () => {
                 <div className={styles.haveanAccoujnt}>
                   <p>
                     Already have an account?
-                    <span onClick={() => setRegisterLogin((prev) => !prev)}>
-                      {" "}
-                      Sign in
-                    </span>
+                    <Link href="/Register/Login">
+                      <span onClick={() => setRegisterLogin((prev) => !prev)}>
+                        {" "}
+                        Sign in
+                      </span>
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -125,7 +128,7 @@ const Register = () => {
                       <input type="checkbox" />
                       <label>Remeber me</label>
                     </div>
-                    <div>
+                    <div className={styles.forgotPassword}>
                       <p>Forgot password?</p>
                     </div>
                   </div>
@@ -137,10 +140,12 @@ const Register = () => {
                 <div className={styles.haveanAccoujnt}>
                   <p>
                     Already have an account?
-                    <span onClick={() => setRegisterLogin((prev) => !prev)}>
-                      {" "}
-                      Sign in
-                    </span>
+                    <Link href="/Register/SignUp">
+                      <span onClick={() => setRegisterLogin((prev) => !prev)}>
+                        {" "}
+                        Sign in
+                      </span>
+                    </Link>
                   </p>
                 </div>
               </div>

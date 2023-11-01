@@ -1,0 +1,23 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+.navigation a:hover {
+  color: white;
+  text-decoration: underline;
+  color: #285fe7;
+}
+
+.link {
+  width: 50%;
+  display: flex;
+  gap: 30px;
+}
+.navigationBg {
+  background: #182b3a;
+}

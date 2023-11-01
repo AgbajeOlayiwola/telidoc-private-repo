@@ -1,0 +1,11 @@
+import styles from "./styles.module.css";
+
+const Cover = ({ children }: { children: any }) => {
+  return (
+    <div className={styles.outer}>
+      <div className={styles.inner}>{children}</div>
+    </div>
+  );
+};
+
+export default Cover;

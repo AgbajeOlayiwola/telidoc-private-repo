@@ -1,0 +1,61 @@
+.ther {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.ther ndiv:nth-child(1) {
+  width: 30%;
+}
+.therCov {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.img {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+.img div {
+  display: flex;
+  flex-direction: column;
+
+  gap: 12px;
+}
+.profession {
+  padding: 21px;
+  border-radius: 5.25px;
+  background: #f3f3f3;
+}
+.profession p {
+  margin: 0px;
+}
+.allDocs {
+  display: flex;
+  flex-direction: column;
+  gap: 51px;
+}
+.lidtd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 164px;
+}
+.img a {
+  color: #0666eb;
+  font-family: Inter;
+  font-size: 18.375px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 31.5px; /* 171.429% */
+  text-decoration: none;
+}
+.lists {
+  color: #0666eb;
+  font-family: Inter;
+  font-size: 18.375px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}

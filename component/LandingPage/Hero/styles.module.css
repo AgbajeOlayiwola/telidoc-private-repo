@@ -1,0 +1,110 @@
+.quote {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.hero {
+  background: #182b3a;
+  height: 100%;
+  background-image: url("/Images/Ellipse1.svg"), url("/Images/Ellipse2.svg"),
+    url("/Images/Ellipse3.svg"), url("/Images/Ellipse4.svg"),
+    url("/Images/Star1.svg"), url("/Images/Polygon1.svg"),
+    url("/Images/Rectangle1.svg");
+  /* background-size:
+    2%,
+    20%,
+    100%,
+    100%,
+    50px 50px; */
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+    no-repeat;
+  background-position:
+    0% 85%,
+    100% 79%,
+    10% 40%,
+    100% 40%,
+    5% 21%,
+    88% 23%,
+    0% 39%,
+    center bottom;
+}
+
+.heal {
+  width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heal h1 {
+  color: white;
+}
+.heal p {
+  color: #b8b8b8;
+  width: 80%;
+}
+
+.heroImage {
+  display: flex;
+  justify-content: center;
+  margin-top: 52px;
+}
+
+.offeringd {
+  display: flex;
+  justify-content: center;
+}
+
+.offerins {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 212px;
+  margin-bottom: 200px;
+}
+.heasl {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 155px;
+}
+.heasl h1 {
+  color: white;
+}
+.heasl p {
+  color: #b8b8b8;
+}
+.offeringCOntent {
+  padding: 24px 21px;
+  width: 20%;
+  text-align: center;
+  background: #12324b;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 16px;
+  align-items: center;
+}
+
+.offeringCOntent h2 {
+  color: #fff;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 23.625px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.offeringCOntent p {
+  color: #b8b8b8;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 15.75px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23.625px;
+}
